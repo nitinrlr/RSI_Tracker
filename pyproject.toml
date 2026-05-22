@@ -1,0 +1,9 @@
+[project]
+name = "rsi-trendline-agent"
+version = "0.1.0"
+description = "Email alert agent for RSI trendline touch setups."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+rsi-trendline-agent = "rsi_trendline_agent.__main__:main"

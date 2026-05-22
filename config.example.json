@@ -1,0 +1,18 @@
+{
+  "symbol": "TSLA",
+  "range": "1y",
+  "interval": "1d",
+  "rsi_period": 14,
+  "trendline": {
+    "mode": "auto",
+    "side": "resistance",
+    "pivot_lookback": 3,
+    "manual_anchors": []
+  },
+  "touch_tolerance": 1.5,
+  "breakout_tolerance": 0.5,
+  "min_bars_between_touches": 3,
+  "alert_on_touch_number": 2,
+  "state_file": "state/alerts.json",
+  "poll_seconds": 3600
+}
